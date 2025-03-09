@@ -520,8 +520,8 @@ importers:
         specifier: ^1.227.0
         version: 1.227.0(@rrweb/types@2.0.0-alpha.17)
       posthog-node:
-        specifier: ^4.9.0
-        version: 4.9.0
+        specifier: ^4.10.1
+        version: 4.10.1
       react:
         specifier: ^19.0.0
         version: 19.0.0
@@ -5165,8 +5165,8 @@ packages:
   '@types/node-fetch@2.6.12':
     resolution: {integrity: sha512-8nneRWKCg3rMtF69nLQJnOYUcbafYeFSjqkw3jCRLsqkWFlHaoQrr5mXmofFGOx3DKn7UfmBMyov8ySvLRVldA==}
 
-  '@types/node@18.19.79':
-    resolution: {integrity: sha512-90K8Oayimbctc5zTPHPfZloc/lGVs7f3phUAAMcTgEPtg8kKquGZDERC8K4vkBYkQQh48msiYUslYtxTWvqcAg==}
+  '@types/node@18.19.80':
+    resolution: {integrity: sha512-kEWeMwMeIvxYkeg1gTc01awpwLbfMRZXdIhwRcakd/KlK53jmRC26LqcbIt7fnAQTu5GzlnWmzA3H6+l1u6xxQ==}
 
   '@types/node@22.13.9':
     resolution: {integrity: sha512-acBjXdRJ3A6Pb3tqnw9HZmyR3Fiol3aGxRCK1x3d+6CDAMjl7I649wpSd+yNURCjbOUGu9tqtLKnTGxmK6CyGw==}
@@ -5670,8 +5670,8 @@ packages:
     peerDependencies:
       axios: 0.x || 1.x
 
-  axios@1.8.1:
-    resolution: {integrity: sha512-NN+fvwH/kV01dYUQ3PTOZns4LWtWhOFCAhQ/pHb88WQ1hNe5V/dvFwc4VJcDL11LT9xSX0QtsR8sWUuyOuOq7g==}
+  axios@1.8.2:
+    resolution: {integrity: sha512-ls4GYBm5aig9vWx8AWDSGLpnpDQRtWAfrjU+EuytuODrFBkqesN2RkOQCBzrA1RQNHw1SmRMSDDDSwzNAYQ6Rg==}
 
   babel-loader@9.2.1:
     resolution: {integrity: sha512-fqe8naHt46e0yIdkjUZYqddSXfej3AHajX+CSO5X7oy0EmPc6o5Xh+RClNoHjnieWz9AW4kZxW9yyFMhVB1QLA==}
@@ -8914,8 +8914,8 @@ packages:
     peerDependencies:
       '@rrweb/types': 2.0.0-alpha.17
 
-  posthog-node@4.9.0:
-    resolution: {integrity: sha512-Jg4YmHTzUUJ/lrwPAvYQcF6xpfaW/l11UJISlTqajj1+xANv3WJXRtBml+atWVqbwTvSBlkzXwEq9rd0Sy188A==}
+  posthog-node@4.10.1:
+    resolution: {integrity: sha512-rEzVszfaOkUFTjEabDcRLJNRqMwTOeU1WpqKgQEDV3x82O4ODifkvkoCERaPxl/ossi1NtqKXBOZ+XnhQ19pNQ==}
     engines: {node: '>=15.0.0'}
 
   preact@10.26.4:
@@ -12324,8 +12324,8 @@ snapshots:
       '@babel/runtime': 7.26.9
       '@knocklabs/types': 0.1.5
       '@types/phoenix': 1.6.6
-      axios: 1.8.1
-      axios-retry: 4.5.0(axios@1.8.1)
+      axios: 1.8.2
+      axios-retry: 4.5.0(axios@1.8.2)
       eventemitter2: 6.4.9
       jwt-decode: 4.0.0
       phoenix: 1.7.19
@@ -15164,7 +15164,7 @@ snapshots:
       '@types/node': 22.13.9
       form-data: 4.0.2
 
-  '@types/node@18.19.79':
+  '@types/node@18.19.80':
     dependencies:
       undici-types: 5.26.5
 
@@ -15710,12 +15710,12 @@ snapshots:
 
   await-to-js@3.0.0: {}
 
-  axios-retry@4.5.0(axios@1.8.1):
+  axios-retry@4.5.0(axios@1.8.2):
     dependencies:
-      axios: 1.8.1
+      axios: 1.8.2
       is-retry-allowed: 2.2.0
 
-  axios@1.8.1:
+  axios@1.8.2:
     dependencies:
       follow-redirects: 1.15.9
       form-data: 4.0.2
@@ -19163,7 +19163,7 @@ snapshots:
 
   openai@4.86.1(ws@8.18.1(bufferutil@4.0.9))(zod@3.24.2):
     dependencies:
-      '@types/node': 18.19.79
+      '@types/node': 18.19.80
       '@types/node-fetch': 2.6.12
       abort-controller: 3.0.0
       agentkeepalive: 4.6.0
@@ -19568,9 +19568,9 @@ snapshots:
       preact: 10.26.4
       web-vitals: 4.2.4
 
-  posthog-node@4.9.0:
+  posthog-node@4.10.1:
     dependencies:
-      axios: 1.8.1
+      axios: 1.8.2
     transitivePeerDependencies:
       - debug
 
@@ -21166,7 +21166,7 @@ snapshots:
   typesense@1.8.2(@babel/runtime@7.26.9):
     dependencies:
       '@babel/runtime': 7.26.9
-      axios: 1.8.1
+      axios: 1.8.2
       loglevel: 1.9.2
     transitivePeerDependencies:
       - debug
